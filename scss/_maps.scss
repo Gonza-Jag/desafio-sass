@@ -1,0 +1,23 @@
+/*.....MAPS.....*/
+
+$mapRedes:(facebook:blue,instagram:violet,twitter:rgb(40, 148, 82));
+
+@each $red, $color in $mapRedes{
+    .#{$red}--link{
+        color: $color;
+    }
+    
+}
+
+/*....MAP-GET....*/
+
+$estilo:(
+    color:rgb(255, 0, 170),
+    tamFuente:3rem,
+);
+.footer-footer{
+    background-color: map-get($map:$estilo, $key: color);
+    font-size: map-get($map:$estilo, $key: tamFuente );
+    width: 100%;
+
+}

@@ -13,6 +13,38 @@ html {
 }
 
 /* 1rem = 10px*/
+/*.....MAPS.....*/
+.facebook--link {
+  color: blue;
+}
+
+.instagram--link {
+  color: violet;
+}
+
+.twitter--link {
+  color: #289452;
+}
+
+/*....MAP-GET....*/
+.footer-footer {
+  background-color: #ff00aa;
+  font-size: 3rem;
+  width: 100%;
+}
+
+/*EXTEND*/
+.primerEstilo, .segundoEstilo {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.segundoEstilo {
+  background-color: green;
+}
+
 header {
   background-color: #ac7fff;
   display: -webkit-box;
@@ -26,6 +58,10 @@ header {
           justify-content: space-between;
 }
 
+header h1 {
+  font-size: 3rem;
+}
+
 header nav {
   background-color: #007377;
 }
@@ -36,12 +72,52 @@ header nav li {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 header nav li a {
   color: #380505;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.7rem;
+  margin: 0.5rem;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer h3 {
+  font-size: 3rem;
+}
+
+.facebook--link {
+  font-size: 1.5rem;
+  background-color: #ff00aa;
+}
+
+.instagram--link {
+  font-size: 1.5rem;
+  background-color: #ff00aa;
+}
+
+.twitter--link {
+  font-size: 1.5rem;
+  background-color: #ff00aa;
 }
 /*# sourceMappingURL=estilos.css.map */

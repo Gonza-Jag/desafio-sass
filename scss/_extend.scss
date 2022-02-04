@@ -1,0 +1,13 @@
+/*EXTEND*/ 
+
+.primerEstilo{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.segundoEstilo{
+    @extend .primerEstilo;
+    background-color: green;
+}
