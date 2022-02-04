@@ -1,0 +1,10 @@
+/*MIXIN*/
+
+@mixin parrafos {
+    font-family:monospace;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.parrafosMixin{
+    @include parrafos;
+}
