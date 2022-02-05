@@ -1,0 +1,2 @@
+ En este nuevo proyecto solamente apliqué lo aprendido en sass. Por lo que inicié con un reset,  declaré un mapa y luego utilize map-get en el footer.  También apliqué un extend y un mixin al h3. Por último utilicé las etiquetas meta description y meta keyword.
+ Me disculpo por haber hecho una página tan simple pero tuve varios problemas en la semana para poder linkear la pagina sass, de hecho lo estoy haciendo desde otra pc. Espero sepan entenderme. Saludos
